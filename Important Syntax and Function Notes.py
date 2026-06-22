@@ -8,6 +8,15 @@
 
    >Python uses indentation to indicate a block of code.
 
+   x = "awesome"
+
+def myfunc():
+  x = "Fantastic"
+  print("Python is " + x)
+
+myfunc()
+print("Python is " + x)
+
 
 >>>STATEMENTS
 
@@ -33,5 +42,28 @@
          my_variable_name = "John"
                   
       
+>>>Slicing
+     >You can return a range of characters by using the slice syntax.
+
+     >Specify the start index and the end index, separated by a colon, 
+      to return a part of the string.
+
+      >> for Example:: 
+                      Get the characters from position 2 to position 5 (not included):
+
+                      b = "Hello, World!"
+                      print(b[2:5])
+
+>>> Creation of Tuple using Comma
+
+    a = "hello"
+    b = "world"
+    c = a , b ..> Comma here creates a tuple 
+    print(c)                      
+         
+
+ Hence output will be:>>
+
+     ('hello', 'world')
 
 '''
