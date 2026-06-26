@@ -38,3 +38,22 @@ txt = f"The price is {20 * 59} dollars"
 print(txt)
 
 # Placeholders can also contain mathematical operations
+
+print(bool("Hello"))
+print(bool(15))
+
+# Both of these values are not null in there respective data types,hence are considered to be true in python
+'''
+Values that become False
+
+bool("")      # False (empty string)
+bool(0)       # False (zero)
+bool(0.0)     # False
+bool([])      # False (empty list)
+bool({})      # False (empty dictionary)
+bool(())      # False (empty tuple)
+bool(None)    # False
+
+Everything else is generally considered True
+
+'''

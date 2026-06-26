@@ -1,14 +1,5 @@
-txt = "The Best  in life are free"
-if "things" in txt:
-    print("yes")
-else:
-    print("no")
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+ 
+newlist = [fruit for fruit in fruits if fruit < fruits[4]] 
 
-b = "Hello,World"
-print(b[2:])
-
-
-a = "hello"
-b = "world"
-c = a + b
-print(type(c))
+print(newlist)
