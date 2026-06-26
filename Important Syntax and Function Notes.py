@@ -68,5 +68,23 @@ print("Python is " + x)
 
 '''
 '''
+>>>List Compression using For Loop
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+    newlist.append(x.upper())
+
+print(newlist)
+............................................
+Simple and tedious way of using a for loop in defining a new list from a previous old list
+
+Instead use this>>>>>
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist[x.upper() for x in fruits]
+
+
+Benefits of using list compression is to decrease code writing and run time.
 
 '''
