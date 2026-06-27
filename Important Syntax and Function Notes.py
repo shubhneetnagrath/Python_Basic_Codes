@@ -85,6 +85,6 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist[x.upper() for x in fruits]
 
 
-Benefits of using list compression is to decrease code writing and run time.
+Benefits of using list compression is to decrease code length and run time.
 
 '''
