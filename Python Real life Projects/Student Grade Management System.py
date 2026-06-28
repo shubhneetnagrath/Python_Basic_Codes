@@ -29,5 +29,5 @@ def average():
 
 average()
 
-
+print(8)
 
